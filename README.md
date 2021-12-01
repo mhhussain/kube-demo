@@ -73,3 +73,4 @@ Delete the replica set:
 - [ ] Create a deployment
 - [ ] Patch a deployment
 - [ ] port-forward to access application from local machine
+- [ ] Download and manage the cluster using Lens
