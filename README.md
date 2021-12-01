@@ -3,6 +3,7 @@
 ## Connecting to cluster
 
 Acquire a copy of the kubeconfig file. Copy file to directory: `~/.kube`
+
 Download `kubectl` from the internet, the command should be available at the command line once added to the system path.
 
 Confirm connection to cluster (`kubectl` uses `~/.kube/config` by default for accessing cluster)
@@ -36,7 +37,7 @@ Pod can be viewed:
     `curl localhost:8081`
   3. Curl application at hostname:
 
-    `curl <POD_NAME>`
+    `curl <POD_NAME>:8081`
 
 </details>
 .
